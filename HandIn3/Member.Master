@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Member.master.cs" Inherits="HandIn3.Member" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>HandIn 3</title>
+    <link href="~/app_Themes/ThemeMyFitness/MyFitnessStyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" /> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>    
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div class="headertext">
+            <asp:Label ID="LabelHeader" runat="server" CssClass="headertext" Text="MyFitnessCenter" EnableTheming="False"></asp:Label>
+         </div>
+        <br />
+            <div class="myMenuBar">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Welcome.aspx" Text="HOME" Value="HOME"></asp:MenuItem>
+                        <asp:MenuItem Text="SIGNUP" Selectable="False">
+                            <asp:MenuItem Text="Signup to activity" Value="Signup to activity" NavigateUrl="~/MemberSignup.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Delete a signup" Value="Delete a signup" NavigateUrl="~/MemberSignUpDelete.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/MemberCRUD.aspx" Text="Display signups" Value="Display signups"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="LOGIN" Value="Login" NavigateUrl="~/LoginMember.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+            <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+        </asp:ContentPlaceHolder>
+        <br />
+        <div class="footer">     
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <h4>MyFitnessCenter</h4>
+                <ul>
+                    <li><a>About us</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Rules</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h4>Help</h4>
+                <ul>
+                    <li><a>Contact us</a></li>
+                    <li><a>FAQ</a></li>
+                    <li><a>Newsletter</a></li>
+                    <li><a>Opening hours</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h4>Career</h4>
+                <ul>
+                    <li><a>Jobs</a></li>
+                    <li><a>Education</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h4>Address</h4>
+                    <ul>
+                        <li><a>MyFitnessCenter</a></li>
+                        <li><a>Fitness Road 206</a></li>
+                        <li><a>2800 Lyngby</a></li>
+                        <li><a>CVR. 1616179</a></li>
+                    </ul>
+            </div>
+        </div>
+        </div>
+    </form>
+    <script src="Scripts/bootstrap.js" ></script>
+    <script src="Scripts/jquery-2.1.4.js" ></script>
+</body>
+</html>

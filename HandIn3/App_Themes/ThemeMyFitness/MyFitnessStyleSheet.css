@@ -1,0 +1,190 @@
+﻿
+body
+{
+    margin-left:20px; margin-top:10px; margin-right:20px; margin-bottom:10px; line-height: 1.4;
+}
+
+.headertext
+{
+    font-family:'Open Sans', sans-serif; font-size:24px; text-align:center; font-weight: bold;
+}
+
+.toptext
+{
+    font-family:'Open Sans', sans-serif; font-size:16px; font-weight: bold; padding: 2px;
+}
+
+.footertext
+{
+    font-family: 'Open Sans', sans-serif; font-size: 14px; text-align: center;
+}
+
+.myTable
+{
+    text-align: left; width: 80%;
+}
+
+.myTableContCol1
+{
+    width: 150px; height: 35px;
+}
+
+.myTableContCol2
+{
+    width: 200px; height: 35px;
+}
+
+.myUserlevel 
+{
+    font-family: 'Open Sans'; font-size: 12px; text-align: right;
+}
+
+.myMenuBar
+{
+    background-color: #3a4f63; width: 100%; font-family: Verdana; font-size: 14px; text-align: left;
+}
+
+.menu
+{
+    background-color: #3a4f63; padding: 3px 3px 3px 3px;
+}
+
+.menu ul
+{
+    list-style: none;
+    margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+    width: auto;
+}
+
+.menu ul li a
+{
+    background-color: #3a4f63;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.25em;
+    padding: 3px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu ul li a:visited
+{
+    background-color: #3a4f63;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.25em;
+    padding: 3px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu ul li a:hover
+{
+    background-color: #bfcbd6; color: #465c71; text-decoration: none;
+}
+
+.menu ul li a:active
+{
+    background-color: #465c71; color: #cfdbe6; text-decoration: none;
+}
+
+.footer a, .footer p 
+{
+    color: #999;
+}
+
+.footer
+{
+    background-color: #262626;
+}
+
+.footer h4 
+{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+.footer li 
+{
+    list-style-type: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    text-align: left;
+    font-size: 14px;
+}
+.text-center 
+{
+    text-align: center;
+}
+.row
+{
+    margin-left: 3px; margin-right: 3px;
+}
+
+.GridViewStyle
+{
+    border:1px solid #BFCBD6; border-collapse:collapse; font-family:'Open Sans', sans-serif; table-layout :auto; font-size: 14px; 
+}
+
+/*Header*/
+.HeaderStyle 
+{
+    border:1px solid #ddd; background-color: #3a4f63; color: #dde4ec;
+}
+
+.HeaderStyle th 
+{
+    padding:3px 3px 3px 3px; color: #cfdbe6; text-align: center; 
+}
+
+/*Row*/
+.RowStyle
+{
+    text-align:center; background-color:#fff;
+}
+
+.RowStyle td
+{
+    padding:3px 3px 3px 3px; border-color: #BFCBD6;
+}
+
+.RowStyle:hover 
+{
+    cursor:pointer; background-color:#f69542;
+}
+
+.AlternatingRowStyle 
+{
+    text-align: center; background-color:#bfcbd6;
+}
+
+.AlternatingRowStyle td
+{
+    padding:3px 3px 3px 3px; border-color: #BFCBD6;
+}
+
+.AlternatingRowStyle:hover 
+{
+    cursor: pointer; background-color: #f69542;
+}
