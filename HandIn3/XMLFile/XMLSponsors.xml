@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<sponsors>
+  <sponsor>
+    <id>1</id>
+    <companyname>Nike</companyname>
+    <website>http://nike.com</website>
+    <picture>nike_logo.jpg</picture>
+  </sponsor>
+  <sponsor>
+    <id>2</id>
+    <companyname>High5</companyname>
+    <website>http://highfive.co.uk/</website>
+    <picture>high5_Logo.jpg</picture>
+  </sponsor>
+  <sponsor>
+    <id>3</id>
+    <companyname>TechnoGym</companyname>
+    <website>http://technogym.com</website>
+    <picture>technogym.jpg</picture>
+  </sponsor>
+  <sponsor>
+    <id>4</id>
+    <companyname>6 Directions</companyname>
+    <website>http://www.6-directions.com</website>
+    <picture>6-directions_logo.jpg</picture>
+  </sponsor>
+</sponsors>
